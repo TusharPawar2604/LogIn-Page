@@ -1,0 +1,28 @@
+gsap.from("h1",{
+    y:-500,
+    duration:1
+})
+gsap.from(".input-box",{
+    x:-500,
+    duration:1,
+    opacity:0,
+    delay:1
+})
+gsap.from(".remember-password",{
+    x:500,
+    duration:1,
+    opacity:0,
+    delay:1
+})
+gsap.from("button",{
+    y:200,
+    duration:1,
+    opacity:0,
+    delay:1
+})
+gsap.from(".register-link",{
+    y:200,
+    opacity:0,
+    duration:1,
+    delay:1
+})
